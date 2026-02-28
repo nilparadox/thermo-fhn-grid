@@ -1,0 +1,51 @@
+{
+  "grid": { "nx": 25, "ny": 25, "neighbors": "von_neumann", "boundary": "periodic" },
+
+  "model": {
+    "a": 0.7,
+    "c": 0.1,
+    "xi": 0.175,
+    "b": 0.4,
+    "T": 5.0,
+    "I": 0.5,
+    "A": 0.9,
+    "omega": 1.004,
+
+    "r": 0.0001,
+    "k": 0.001,
+
+    "Em": 1.5,
+    "f": 0.01
+  },
+
+  "coupling": { "Kx": 0.02 },
+
+  "noise": {
+    "enable": true,
+    "sigma_x": 0.02,
+    "sigma_y": 0.01,
+    "sigma_E": 0.0,
+    "type": "additive_gaussian"
+  },
+
+  "sim": {
+    "dt": 0.02,
+    "t_total": 1200.0,
+    "burn_in": 200.0,
+    "sample_every": 5,
+    "seed": 12345
+  },
+
+  "analysis": {
+    "spike_threshold": 0.0,
+    "min_spike_separation": 0.5,
+
+    "compute_lyapunov": true,
+    "lyap_renorm_dt": 2.0,
+    "lyap_total_time": 800.0,
+
+    "compute_bifurcation_trace": true,
+    "trace_node": [12, 12],
+    "trace_metric": "x_maxima"
+  }
+}

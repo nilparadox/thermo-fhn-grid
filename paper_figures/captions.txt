@@ -1,0 +1,26 @@
+
+Figure 1. Example collective dynamics.
+(a) Raster plot of spike events across the 25×25 network.
+(b) Representative time series of a single neuron.
+
+Figure 2. Time-resolved collective coherence.
+(a) Mean-field activity x̄(t).
+(b) Kuramoto order parameter R(t) computed from spike-defined phases.
+
+Figure 3. Phase coordination between distant neurons.
+Wrapped phase difference Δφ(t) between nodes (3,3) and (21,21).
+
+Figure 4. Spatial organization in the steady regime.
+(a) Firing-rate map over the grid.
+(b) Spatial phase snapshot at late time.
+
+Figure 5. Phase diagrams in modulation parameter space.
+(a) Mean Kuramoto coherence R(Em, f).
+(b) Mean coefficient of variation CV(Em, f).
+
+Figure 6. Thermal control.
+Mean and standard deviation of R and CV as a function of baseline temperature T.
+
+Supplementary Figures.
+Robustness across seeds (standard deviations), active fraction controls, and frequency slices.
+
